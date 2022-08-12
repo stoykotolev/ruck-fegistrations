@@ -1,0 +1,13 @@
+{
+  "name": "Tuck Fwitter",
+  "description": "Do you want to see twitter convos and check it out from time to time, without having to create a twitter account. Join us here at Tuck Fwitter, where we will hide the pesky Sign in/up buttons for you and allow you a happy time scrolling",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Stoyko Tolev",
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
